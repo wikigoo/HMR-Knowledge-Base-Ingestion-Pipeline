@@ -1,0 +1,11 @@
+# HMR ingestion — example targets file.
+# One URL per line. Blank lines and lines starting with '#' are ignored.
+# Replace these placeholders with the real manual / support-page URLs you want to ingest.
+#
+# PDF manuals (detected by .pdf extension or application/pdf content-type):
+https://example-brand.com/support/galaxy-s24-ultra-user-manual.pdf
+https://example-brand.com/support/iphone-15-pro-quick-start.pdf
+#
+# HTML support pages (converted to clean Markdown):
+https://example-brand.com/support/how-to-check-battery-health
+https://example-brand.com/support/identify-counterfeit-charger

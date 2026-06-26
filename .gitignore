@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Ingestion runtime artifacts (these are produced per-run, not source)
+agent_config.json
+agent_state.json
+agent_state.json.tmp
+*/Corpus/
+*/Ready_For_Flowise/
+*.extracted.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
